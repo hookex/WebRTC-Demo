@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Realtime communication with WebRTC</title>
+  <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <center>
+    <h1>
+      Realtime communication with WebRTC
+    </h1>
+    <h3>There is no WebRTC server.</h3>
+
+    <video class="img-thumbnail" id="localVideo" autoplay playsinline></video>
+    <video class="img-thumbnail filter-xpro-ii" id="remoteVideo" autoplay playsinline></video>
+
+
+    <div>
+      <button class="btn btn-primary" id="startButton">Start</button>
+      <button class="btn btn-success" id="callButton">Call</button>
+      <button class="btn btn-danger" id="hangupButton">Hang Up</button>
+    </div>
+  </center>
+
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
